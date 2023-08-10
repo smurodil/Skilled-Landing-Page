@@ -1,0 +1,42 @@
+.btn{
+    @include btnSetting(700, 1.8rem, 1.55, $white-color);
+
+    // font-weight: 700;
+    // font-size: 18px;
+    // line-height: 1.55;
+    // color: $white-color;
+}
+
+
+.header__btn{
+    background-color: $dark-blue-color;
+    padding: 14px 32px;
+    border-radius: 28px;
+    transition: 0.3s;
+}
+
+.header__btn:hover{
+    background-color: $purple-color;
+}
+
+.hero__btn{
+    background: $orange-linear;
+    padding: 19px 32px;
+    border-radius: 31.5px;
+    transition: 0.3s;
+}
+
+.hero__btn:hover{
+    opacity: 0.5;
+}
+
+.footer__btn{
+    background: $purple-linear;
+    padding: 14px 31px;
+    border-radius: 28px;
+    transition: 0.3s;
+}
+
+.footer__btn:hover{
+    opacity: 0.5;
+}
